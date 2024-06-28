@@ -1,0 +1,22 @@
+def calculate_stock_quantity(items_per_box, boxes_per_pallet, pallets_in_stock):
+    """
+    Calculate the total quantity of stock goods.
+
+    Parameters:
+    items_per_box (int): The number of items in each box.
+    boxes_per_pallet (int): The number of boxes on each pallet.
+    pallets_in_stock (int): The number of pallets in stock.
+
+    Returns:
+    int: The total quantity of stock goods.
+    """
+    # Calculate the total quantity of stock goods
+    total_quantity = items_per_box * boxes_per_pallet * pallets_in_stock
+    
+    return total_quantity
+
+# Example usage:
+items_per_box = 10       # Number of items per box
+boxes_per_pallet = 20    # Number of boxes per pallet
+pallets_in_stock = 15    # Number of pallets in stock
+print("Total quantity of stock goods:", calculate_stock_quantity(items_per_box, boxes_per_pallet, pallets_in_stock))
