@@ -16,7 +16,7 @@ def calculate_stock_quantity(items_per_box, boxes_per_pallet, pallets_in_stock):
     return total_quantity
 
 # Example usage:
-items_per_box = 10       # Number of items per box
+items_per_box = 5       # Number of items per box
 boxes_per_pallet = 20    # Number of boxes per pallet
 pallets_in_stock = 15    # Number of pallets in stock
 print("Total quantity of stock goods:", calculate_stock_quantity(items_per_box, boxes_per_pallet, pallets_in_stock))
