@@ -1,4 +1,4 @@
-def calculate_stock_quantity(items_per_box, boxes_per_pallet, pallets_in_stock)//:
+def calculate_stock_quantity(items_per_box, boxes_per_pallet, pallets_in_stock):
     """
     Calculate the total quantity of stock goods.
 
