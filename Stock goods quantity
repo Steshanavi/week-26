@@ -12,7 +12,7 @@
     # Calculate the total quantity of stock goods
     total_quantity = items_per_box * boxes_per_pallet * pallets_in_stock
     
-    return total_quantity
+    return total_quantity/*
 
 # Example usage:
 items_per_box = 10      # Number of items per box
